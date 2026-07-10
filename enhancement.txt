@@ -1,0 +1,4 @@
+Enhancement exercises (if time permits)
+•	Swap RoundRobinGroupChat for SelectorGroupChat. Run the same task three times and compare speaker order across runs.
+•	Add a fourth agent, compliance_officer, with no tools, inserted between analyst and reviewer, whose only job is to check the narrative doesn't reference documents outside the ledger (a DOC-013-style guard).
+•	Make finalise() log every rejected reviewer round to a separate audit trail file, not just the final approved narrative.
