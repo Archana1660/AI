@@ -1,0 +1,91 @@
+{
+  "knowledge_base_name": "ARIA Audit Evidence Repository — Mock Client Engagement",
+  "engagement": "Revenue Recognition Review, FY2024",
+  "client_codename": "Meridian Software Ltd",
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "title": "Contract Amendment — Meridian/Northbridge Holdings MSA",
+      "date": "2024-02-14",
+      "type": "Contract Amendment",
+      "content": "Amendment No. 3 to the Master Services Agreement between Meridian Software Ltd and Northbridge Holdings, executed 14 February 2024. This amendment extends the original 12-month license term to 24 months and converts the pricing structure from a fixed annual fee of $480,000 to a usage-based model with a $40,000 monthly minimum. The amendment includes a new clause (Section 7.3) granting Northbridge the right to terminate for convenience with 60 days notice, which was not present in the original agreement. Effective date of pricing change: 1 March 2024."
+    },
+    {
+      "document_id": "DOC-002",
+      "title": "Revenue Schedule Workpaper — Q1 FY2024",
+      "date": "2024-04-05",
+      "type": "Revenue Schedule",
+      "content": "Quarterly revenue recognition schedule for Q1 FY2024 (Jan-Mar). Northbridge Holdings contract shows $120,000 recognized in January and February under the original fixed-fee schedule, with March recognition of $40,000 reflecting the new usage-based minimum per Amendment No. 3. Schedule was prepared by Finance on 5 April 2024. Note in margin: 'confirm whether termination-for-convenience clause requires reassessment of contract term for recognition purposes — flagged for review.'"
+    },
+    {
+      "document_id": "DOC-003",
+      "title": "Board Minutes Extract — March 2024 Meeting",
+      "date": "2024-03-22",
+      "type": "Board Minutes",
+      "content": "Extract from Board of Directors meeting, 22 March 2024. Agenda item 4: Finance Director presented an overview of recent contract modifications affecting Q1 revenue, specifically referencing the Northbridge Holdings amendment. The Board noted the change from fixed to usage-based pricing and requested Finance confirm the accounting treatment is consistent with the company's revenue recognition policy under the relevant standard. Action item assigned to CFO: provide written confirmation to the Audit Committee by next quarterly meeting."
+    },
+    {
+      "document_id": "DOC-004",
+      "title": "Contract Amendment — Meridian/Castellan Insurance MSA",
+      "date": "2023-11-08",
+      "type": "Contract Amendment",
+      "content": "Amendment No. 1 to the Master Services Agreement between Meridian Software Ltd and Castellan Insurance, executed 8 November 2023. This amendment adjusts the implementation services fee schedule from a single milestone payment to three milestone payments tied to deployment phases. No change to the underlying license fee structure. This amendment predates the FY2024 reporting period and relates to FY2023 Q4 activity."
+    },
+    {
+      "document_id": "DOC-005",
+      "title": "External Auditor Correspondence — Revenue Recognition Query",
+      "date": "2024-05-12",
+      "type": "Correspondence",
+      "content": "Letter from external audit firm (Hartley & Voss LLP) to Meridian Software Ltd Finance Director, dated 12 May 2024. The letter requests clarification on the accounting treatment applied to the Northbridge Holdings contract modification, specifically asking: (1) whether the modification was assessed as a separate contract or a modification to the existing contract, (2) the basis for the reallocation of transaction price following the change in pricing structure, and (3) supporting documentation for the assessment. Response due within 10 business days."
+    },
+    {
+      "document_id": "DOC-006",
+      "title": "Management Representation Letter Draft — FY2024 Interim",
+      "date": "2024-06-01",
+      "type": "Management Representation",
+      "content": "Draft management representation letter for FY2024 interim review. Section 4 (Revenue Recognition) states: 'Management represents that all material contract modifications during the period have been appropriately assessed and accounted for in accordance with the Company's revenue recognition policy. Management is not aware of any contract modifications during the period that would require restatement of previously reported revenue.' Note: this draft has not yet been finalized or signed as of document date."
+    },
+    {
+      "document_id": "DOC-007",
+      "title": "Internal Memo — Northbridge Contract Modification Assessment",
+      "date": "2024-03-28",
+      "type": "Internal Memo",
+      "content": "Memo from Senior Accountant to Finance Director, 28 March 2024, Subject: Northbridge Holdings Amendment No. 3 — Revenue Recognition Assessment. The memo concludes that the modification should be treated as a contract modification (not a new separate contract) because the remaining services are not distinct from those already provided. The memo recommends a cumulative catch-up adjustment be recorded in Q1, but notes 'this assessment has not yet been reviewed by the Controller or external audit; treat as preliminary pending sign-off.'"
+    },
+    {
+      "document_id": "DOC-008",
+      "title": "Contract — Meridian/Vantage Logistics Original MSA",
+      "date": "2023-06-01",
+      "type": "Original Contract",
+      "content": "Original Master Services Agreement between Meridian Software Ltd and Vantage Logistics, executed 1 June 2023. Fixed annual license fee of $310,000, 12-month initial term, auto-renewal clause. No amendments on file for this contract as of the current document date. Included in repository as a control example of a contract with no FY2024 modification activity."
+    },
+    {
+      "document_id": "DOC-009",
+      "title": "Revenue Schedule Workpaper — Q2 FY2024 (Draft)",
+      "date": "2024-07-10",
+      "type": "Revenue Schedule",
+      "content": "Draft quarterly revenue recognition schedule for Q2 FY2024 (Apr-Jun). Northbridge Holdings contract shows continued usage-based recognition averaging $42,000/month across the quarter. Schedule includes a note: 'Q1 cumulative catch-up adjustment referenced in Senior Accountant memo (28 Feb) has NOT been incorporated into this draft pending Controller sign-off — see open item tracker.' Document marked DRAFT — NOT FINAL."
+    },
+    {
+      "document_id": "DOC-010",
+      "title": "Open Items Tracker — FY2024 Audit Planning",
+      "date": "2024-07-15",
+      "type": "Audit Planning Document",
+      "content": "Open items tracker maintained by the engagement team. Item #14: 'Northbridge Holdings contract modification — confirm whether cumulative catch-up adjustment proposed in Senior Accountant's 28 March memo was ever reviewed and approved by Controller. As of 15 July, no evidence of sign-off has been located. Follow up required before Q2 review can be finalized.' Item status: OPEN."
+    },
+    {
+      "document_id": "DOC-011",
+      "title": "Email Thread — Controller and Senior Accountant",
+      "date": "2024-04-02",
+      "type": "Email Correspondence",
+      "content": "Email thread dated 2 April 2024. Senior Accountant to Controller: 'Following up on my memo regarding the Northbridge modification — do you agree with the cumulative catch-up treatment? Need your sign-off before we finalize Q1 numbers.' Controller's reply, same day: 'Reviewing this week, will get back to you by Friday.' No further messages in this thread are present in the repository. This appears to be the last recorded communication on this specific approval."
+    },
+    {
+      "document_id": "DOC-012",
+      "title": "Revenue Recognition Policy — Company Accounting Manual Extract",
+      "date": "2023-01-01",
+      "type": "Policy Document",
+      "content": "Extract from Meridian Software Ltd's internal Accounting Policy Manual, Section 6: Revenue Recognition. States that contract modifications must be assessed individually to determine whether they represent (a) a separate contract, (b) a termination of the existing contract and creation of a new one, or (c) a modification to be accounted for on a cumulative catch-up or prospective basis. All modification assessments exceeding $100,000 in annual contract value impact require Controller-level sign-off before recognition treatment is finalized. Policy last updated 1 January 2023; no revisions on file for FY2024."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "knowledge_base_name": "ARIA Historical Audit Precedents — Prior Engagements",
+  "purpose": "Used in Lab 2.1 Extension C to test multi-tool reasoning. Contains findings from prior KPMG engagements unrelated to the current Meridian Software Ltd engagement, used to test whether ARIA can correctly distinguish when historical precedent is relevant versus when it should rely solely on current engagement evidence.",
+  "documents": [
+    {
+      "precedent_id": "PREC-001",
+      "title": "Prior Finding — Contract Modification Without Sign-Off (Client: Westfield Components, FY2022)",
+      "date": "2022-09-14",
+      "type": "Prior Audit Finding",
+      "content": "During the FY2022 audit of Westfield Components, the engagement team identified a contract modification that had been recorded in revenue schedules without documented Controller approval, similar in pattern to a missing sign-off. This was escalated as a control deficiency. Management subsequently implemented a mandatory sign-off checklist for all contract modifications exceeding $75,000 in value. This precedent is relevant context for evaluating control design, but is NOT evidence for the current Meridian Software Ltd engagement and must not be cited as such."
+    },
+    {
+      "precedent_id": "PREC-002",
+      "title": "Prior Finding — Usage-Based Pricing Conversion (Client: Allerton Data Systems, FY2023)",
+      "date": "2023-11-02",
+      "type": "Prior Audit Finding",
+      "content": "During the FY2023 audit of Allerton Data Systems, a similar conversion from fixed-fee to usage-based pricing was identified mid-contract. The engagement team's approach was to treat the modification as a contract modification under cumulative catch-up, consistent with guidance, provided the remaining services were not distinct. This is useful methodological precedent but again relates to a different client and must be clearly distinguished from Meridian-specific evidence in any ARIA output."
+    },
+    {
+      "precedent_id": "PREC-003",
+      "title": "Methodology Note — Assessing Distinctiveness of Remaining Services",
+      "date": "2024-01-10",
+      "type": "Internal Methodology Guidance",
+      "content": "Internal KPMG methodology note (non-client-specific) summarising the firm's standard approach to assessing whether remaining contractual services are distinct following a modification. Three-factor test: (1) whether the customer can benefit from the remaining services independently, (2) whether the services are separately identifiable from other promises in the contract, (3) whether the pricing reflects standalone selling price. This is general guidance, not engagement-specific evidence, and should be cited as methodology only."
+    }
+  ]
+}
