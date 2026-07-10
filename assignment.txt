@@ -1,0 +1,25 @@
+==== Enhancement Needed ======= Module-5 ===
+Phase 3 — Failure injection (35 min)
+Break each link, one at a time. Revert each FAILURE_CONFIG edit (and delete the old memo file) before injecting the next.
+3a — Transient failure, retry recovers
+13.	Set "fetch_engagement_data": "timeout" and rerun Phase 2.
+14.	Expected: one [retry] line with a 1s backoff, then the chain completes normally. The model never learns the timeout happened — retry policy is executor-owned.
+
+CHECKPOINT 6	Console shows exactly one [retry] line for fetch_engagement_data, and the full chain still completes with a valid memo.
+
+3b — Permanent failure mid-chain, graceful fallback
+15.	Revert 3a. Set "analyze_variance": "corrupt" and rerun.
+16.	Expected: no retries. ARIA's final response explains the corrupt-data failure, states the memo was not produced, and recommends escalation. No memo file is written.
+
+CHECKPOINT 7	No [retry] lines appear, no findings_memo_FY2024.md is created, and ARIA's final response names the failure and recommends escalation to the engagement manager rather than inventing analysis results.
+
+3c — Write-back rejected by the compliance gate
+17.	Revert 3b. Set "draft_findings_memo": "reject" and rerun.
+18.	Expected: fetch and analyse succeed, the write is refused, ARIA reports the completed analysis but clearly states the memo was blocked pending sign-off.
+
+CHECKPOINT 8	ARIA's final response correctly separates what succeeded (analysis, three flagged accounts) from what was blocked (memo write), and does not claim the memo exists.
+
+Enhancement exercises (if time permits)
+•	Add a fourth tool, get_prior_year_memo, that always raises PermanentToolError('Document not found: DOC-013'). Ask ARIA to reference last year's memo — verify it reports the document as unavailable instead of fabricating its contents.
+•	Add per-tool token accounting: record response.usage per loop against the tool called in that iteration, and print a cost breakdown at the end of the run.
+•	Change MAX_RETRIES to 0 and rerun 3a. Discuss: where should the transient failure surface now, and whose job is the explanation?
